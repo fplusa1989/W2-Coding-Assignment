@@ -1,0 +1,97 @@
+h1 { 
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.col-lg-4 { 
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 33%;
+    float: left;
+    
+    
+ }
+ .innerbox{
+   border: black 5px;
+   background-color:gray;
+   position: relative;
+   
+   
+ }
+   .col-lg-4 span{
+    background-color:palevioletred;
+    padding: 5px 20px;
+    border:black solid 1px;
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 70px; height: 22px;
+
+
+ }
+ .col-lg-4 span2{
+    background-color: red;
+    padding: 5px 20px;
+    border:black solid 1px;
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 70px;
+    height: 22px
+   
+ }
+ .col-lg-4 span3{
+    background-color: #FFD700;
+    padding: 5px 20px;
+    color: black;
+    border:black solid 1px;
+    position: absolute;
+    top: 0;                               
+    right:0;
+    width: 70px;
+    height: 22px;
+    text-align: center;
+ }
+ /*
+ .col-lg-4.col-md-12{
+   padding: 0px;
+ }
+*/
+ #beef { 
+    color: white;
+    text-align: center;
+
+ }
+ section {
+     padding-top: 30px;
+     padding-left: 15px;
+     padding-right: 10px;
+     border:black solid 1px;
+   
+ }
+ 
+/**********Responsive*********/
+/*Mobile*/
+@media only screen and (max-width: 767px) {
+[class*="col-"] {
+   width: 100%;
+ }
+}
+   
+@media ( min-width: 768px ) and (max-width:991px ) {
+.col-md-1 {width: 8.33%;}
+   .col-md-2 {width: 16.66%;}
+   .col-md-3 {width: 25%;}
+   .col-md-4 {width: 33.33%;}
+   .col-md-5 {width: 41.66%;}
+   .col-md-6 {width: 50%;}
+   .col-md-7 {width: 58.33%;}
+   .col-md-8 {width: 66.66%;}
+   .col-md-9 {width: 75%;}
+   .col-md-10 {width: 83.33%;}
+   .col-md-11 {width: 91.66%;}
+   .col-md-12 {width: 100%;}
+}
